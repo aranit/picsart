@@ -1,0 +1,1 @@
+import { ReactNode } from 'react'// Expects a single child or group of childrenexport interface ErrorProps {	children: ReactNode}// Define the state shape for the error boundary componentexport interface ErrorState {	hasError: boolean	error?: Error}
